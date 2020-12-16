@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins' , 'arial';
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.nav-container{
+    background: #9C5BFF;
+    
+    a{
+        color: white;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    .logo{
+        width: 7em;
+        z-index: 1;
+                }
+         nav{
+             float: right;  
+
+             ul{
+                 display: flex;
+
+                 a{
+                     display: inline-block;
+                    padding: 0 1em ;
+            }
+        }  
+    }
+}
+.socials-header, .designbox{
+    display: none;
+}
+.mainbg{
+    background: #A468FF;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+      
+}
+.content h1{
+    display: flex;
+    margin:0 auto;
+    width: 200px;
+    font-weight: bold;
+    color: #D6FF00;
+    span{
+        margin-top: 2em;
+        display: flex;
+    }
+}
+.scroll{
+    width: 30px;
+    margin-top: 2em;
+}
+
+section{
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.skills{
+    background: white;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+}
+
+.skills-container ul li{
+    background: white;
+    padding: 2em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    
+    .img-container{
+        display: grid;
+        height: 100px;
+        place-content: center;
+        margin: 0 auto;
+    
+        &.one{
+            width: 25em;
+        }
+        &.two{
+
+            width: 28em;
+        }
+        &.three{
+
+            width: 35em;
+
+        }
+    }
+
+    .service-title{
+        font-weight: bold;
+    }
+
+    .service-desc{
+        margin-bottom: 2em;
+    }
+
+}
+@media only screen and (min-width: 800px){
+
+.skills{
+    margin-top: -5em;
+    margin-bottom: -7em;
+    padding-top: 7em;
+}
+
+.skills-container ul{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 1em;
+    display: flex;
+    }
+}
+@media only screen and (min-width: 1050px){
+
+    .mainbg{
+        height: 90vh;
+    }
+
+    .nav-container{
+
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+    
+        header{
+            background: #9C5BFF;
+        }
+    }
+    header{
+        padding: 2em 2em 2em 4em;
+    }
+    .socials-header{
+        padding: 2em 4em 2em 0;
+    }
+    section{
+        padding: 4em;
+    }
+    .socials-header{
+        display: block;
+
+        ul{
+            display: flex;
+            justify-content: space-between;
+            width: 7em;
+            float: right;
+            
+            #fb{
+                width: 11px;
+            }
+
+            #be{
+                width: 25px;
+            }
+
+            #in{
+                width: 19px;
+            }
+        }
+    }
+    .mainbg{
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        padding: 0;
+      
+
+        .content{
+            background: #A468FF;
+            padding: 6em 8em 6em 4em;
+            text-align: left;
+
+            h1{
+                font-size: 3em;
+                line-height: 1.2em;
+            }
+            h3{
+                font-size: 3em;
+                line-height: 1.2em;
+            }
+        }
+    }
+    
+    .meet{
+
+        margin: unset;
+    }
+
+    .designbox{
+
+        display: unset;
+        margin-left: -40%;
+        margin-top: -2%;
+        width: 45em;
+        
+    }
+
+
+}

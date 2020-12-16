@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="244.458" height="68.904" viewBox="0 0 244.458 68.904">
+  <defs>
+    <filter id="Path_7" x="31.49" y="2.171" width="212.968" height="66.733" filterUnits="userSpaceOnUse">
+      <feOffset dx="12" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="logo" transform="translate(-140 -36)">
+    <g id="logo-2" data-name="logo">
+      <text id="JG.Castro" transform="translate(140 81)" fill="#fff" font-size="43" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">JG.Castro</tspan></text>
+      <path id="Path_6" data-name="Path 6" d="M249.7,3.171" transform="translate(51 37)" fill="none" stroke="#707070" stroke-width="1"/>
+      <g transform="matrix(1, 0, 0, 1, 140, 36)" filter="url(#Path_7)">
+        <path id="Path_7-2" data-name="Path 7" d="M225.127,3.171h94.331V53.9H120.49" transform="translate(-89 1)" fill="none" stroke="#000" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

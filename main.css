@@ -31,22 +31,16 @@ header{
 
 header .logo{
     width: 7em;
-    z-index: 1;
  }
- header .logo nav{
-     float: right;
- }
- header .logo nav ul{
+
+ header .logo ul{
      display: flex;
  }
  header .logo nav ul a{
-    display: flex;
+    display: block;
     padding: 0 1em ;
 }
-.nav-container header .logo nav ul a{
-    display: flex;
-    padding: 0 1em ;
-}
+
 
 .socials-header, .designbox{
     display: none;
@@ -61,10 +55,7 @@ header .logo{
 }
 .content h1{
     display: flex;
-    margin:0 auto;
-    width: 200px;
-    font-weight: bold;
-    color: #D6FF00;
+
     
 }
 .content h1 span{
@@ -72,69 +63,101 @@ header .logo{
     display: flex;
 }
 
+.meet{
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    font-weight: bold;
+    color: #D6FF00;
+}
+
+.meet span{
+    margin-top: 1em;
+    margin-right: .5em;
+}
 
 .scroll{
     width: 30px;
     margin-top: 2em;
 }
 
-section{
-    padding: 4em 2em;
-    text-align: center;
-}
 
-.skills{
-    background: white;
-    padding: 2em;
-    margin-bottom: 2em;
-    border-radius: 1em;
+
+section .title1{
+    margin: 0 auto;
+    margin-top: 4em;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: -2em;
 }
 
 .skills-container ul li{
-    background: white;
     padding: 2em;
     margin-bottom: 1em;
-    border-radius: 1em;  
 }
-.skills-container .img-container{
-    display: grid;
+
+.skills-container .image-container{
     height: 100px;
+    display: grid;
     place-content: center;
-    margin: 0 auto;
+    text-align:center;
+    margin: 0 auto; 
+    
 }
 
-.img-container .one{
-    width: 25em;
-}
-.img-container .two{
+.skills-container #one{
     width: 28em;
-}
-.img-container .three{
-    width: 35em;
+    margin-top: 15em;
+   
 }
 
+.skills-container #two{
+    width: 29em;
+    margin-top: 15em;
+    margin-left: -1em;
+    
+}
 
-.service-title{
+.skills-container #three{
+    width: 39em;
+    margin-top: 15em;
+    display: unset;
+   margin-left: -12em;
+    
+}
+
+.skill-title{
     font-weight: bold;
+    margin-top: 15em;
+    text-align: center;
+    
+    
+}
+.desc{
+    margin: 2em;
+    text-align: center;
+    
+    
 }
 
-.service-desc{
-    margin-bottom: 2em;
-}
 
 section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
-.title{
-    text-align: center;
+section .title{
+    margin: 0 auto;
+    margin-top: 10em;
     font-size: 3em;
-    font-weight: normal;
-    font-family: 'Poppins';
+    font-weight: bold;
 }
+
+
+
+
+
 
 .card {
     perspective: 1000px;
@@ -166,6 +189,8 @@ section {
     transform: rotateY(180deg);
 }
 
+
+
 @media only screen and (min-width: 800px){
 
 .skills{
@@ -181,6 +206,8 @@ section {
     display: flex;
     }
 }
+
+
 @media only screen and (min-width: 1050px){
     .mainbg{
         height: 90vh;
@@ -218,8 +245,8 @@ section {
         display: inline-flex;
         justify-content: space-between;
         width: 7em;
-    }    
-}
+    }   
+    
     .socials-header ul #fb{
         width: 11px;
     }
@@ -265,6 +292,8 @@ section {
         width: 45em;
         
     }
+}
+    
 
 
 

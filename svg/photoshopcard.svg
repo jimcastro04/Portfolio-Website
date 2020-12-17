@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249" height="219" viewBox="0 0 249 219">
+  <defs>
+    <filter id="Rectangle_63" x="0" y="0" width="249" height="219" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="photoshopcard" transform="translate(-1428 -6090)">
+    <g transform="matrix(1, 0, 0, 1, 1428, 6090)" filter="url(#Rectangle_63)">
+      <rect id="Rectangle_63-2" data-name="Rectangle 63" width="225" height="195" rx="35" transform="translate(13 7)" fill="#fff" opacity="0.84"/>
+    </g>
+    <g id="_x32_3_x2C__Photoshop_x2C__Adobe" transform="translate(1507 6143)">
+      <g id="Group_24" data-name="Group 24">
+        <path id="Path_42" data-name="Path 42" d="M156.494,145.5c-2.346,0-4.131.07-4.494.14v16.534a28.571,28.571,0,0,0,3.9.139c4.75,0,9.313-1.354,9.313-8.346C165.208,148.373,162.147,145.5,156.494,145.5Z" transform="translate(-124.423 -119.102)"/>
+        <path id="Path_43" data-name="Path 43" d="M0,0V92.893H92.893V0ZM31.272,49.893H27.577V65.737c0,.42-.154.485-.455.485H20.748c-.3,0-.427-.065-.427-.415V20.182c0-.35.064-.481.364-.481,2.285-.07,6.779-.132,11.35-.132,11.787,0,16.293,6.862,16.353,14.973C48.387,45.659,40.112,49.893,31.272,49.893ZM62.6,67.2c-3.132,0-7.035-.3-9.517-2.117-.237-.14-.286-.349-.286-.7V57.95c0-.35.168-.489.345-.35a15.407,15.407,0,0,0,9.517,2.963c2.719,0,3.655-1.812,3.655-3.35,0-1.818-.663-2.867-4.918-4.894-6.086-2.937-8.628-5.461-8.628-10.565,0-5.664,4.235-10.342,11.207-10.342,3.6,0,6.106.1,7.761,1.215.3.28.292.489.292.91V39.27c0,.419-.174.629-.469.419-2.128-1.4-5.085-1.843-8.158-1.843-2.9,0-3.659,1.811-3.659,3.139,0,1.679.772,2.587,5.2,4.685,6.086,2.937,8.692,5.524,8.692,10.558C73.639,63.22,69.1,67.2,62.6,67.2Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

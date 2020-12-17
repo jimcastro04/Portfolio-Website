@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249" height="219" viewBox="0 0 249 219">
+  <defs>
+    <filter id="Rectangle_65" x="0" y="0" width="249" height="219" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="illustratorcard" transform="translate(-896 -6090)">
+    <g transform="matrix(1, 0, 0, 1, 896, 6090)" filter="url(#Rectangle_65)">
+      <rect id="Rectangle_65-2" data-name="Rectangle 65" width="225" height="195" rx="35" transform="translate(13 7)" fill="#fff" opacity="0.84"/>
+    </g>
+    <g id="_x31_1_x2C__Illustrator_x2C__Adobe_x2C__Ai" transform="translate(976 6149)">
+      <g id="Group_25" data-name="Group 25">
+        <path id="Path_44" data-name="Path 44" d="M0,0V92H92V0ZM55.114,65.586H48.442c-.3,0-.416-.216-.535-.493L44.095,52.828H30.456L26.822,64.954c-.06.416-.239.632-.6.632H20.151c-.417,0-.535-.215-.417-.7,3.217-10.6,8.636-28.255,12.448-40.235a15.576,15.576,0,0,0,.476-3.78.347.347,0,0,1,.358-.387h8.22c.3,0,.357.035.476.312,4.406,14.2,9.231,29.841,13.758,44.175C55.59,65.386,55.471,65.586,55.114,65.586ZM69,65c0,.347-.118.581-.469.581H62.445c-.351,0-.453-.166-.453-.65V32.458c0-.416.042-.653.336-.653h6.2c.351,0,.469.169.469.653ZM65.43,27.333c-2.341,0-3.921-1.662-3.921-4.294a3.981,3.981,0,0,1,3.979-4.293c2.4,0,3.863,1.731,3.863,4.293C69.351,25.671,67.77,27.333,65.43,27.333Z"/>
+        <path id="Path_45" data-name="Path 45" d="M183.233,152c-.894,4.492-3.335,12.4-5.122,18.867h10.482c-1.191-4.672-4.11-14.016-5.3-18.867Z" transform="translate(-146.107 -124.688)"/>
+      </g>
+    </g>
+  </g>
+</svg>

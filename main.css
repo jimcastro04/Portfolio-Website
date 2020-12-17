@@ -40,7 +40,11 @@ header .logo{
      display: flex;
  }
  header .logo nav ul a{
-    display: inline-block;
+    display: flex;
+    padding: 0 1em ;
+}
+.nav-container header .logo nav ul a{
+    display: flex;
     padding: 0 1em ;
 }
 
@@ -110,14 +114,57 @@ section{
 }
 
 
-    .service-title{
-        font-weight: bold;
-    }
+.service-title{
+    font-weight: bold;
+}
 
-    .service-desc{
-        margin-bottom: 2em;
-    }
+.service-desc{
+    margin-bottom: 2em;
+}
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    font-family: 'Poppins';
+}
+
+.card {
+    perspective: 1000px;
+    margin: 1rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    transition: all 1s ease;
+    transform-style: preserve-3d;
+
+}
+.card-front {
+    grid-area: 1 / 1;
+    transform: rotateY(180deg);
+}
+
+.card-back {
+    grid-area: 1 / 1;
+    z-index: 1;
+}
+
+.card-container img {
+    width: 15rem;
+}
+
+.card:hover .card-container {
+    transform: rotateY(180deg);
+}
 
 @media only screen and (min-width: 800px){
 
@@ -147,7 +194,6 @@ section{
         background: #9C5BFF;
     }
 
-
     header{
         padding: 2em 2em 2em 4em;
     }
@@ -162,24 +208,27 @@ section{
 
     }
 
-.socials-header ul{
-    display: flex;
-    justify-content: space-between;
-    width: 7em;
-    float: right;
+    .socials-header ul{
+        display: flex;
+        justify-content: space-between;
+        width: 7em;
+        float: right;
+    }
+    .nav-container header nav{
+        display: inline-flex;
+        justify-content: space-between;
+        width: 7em;
+    }    
 }
     .socials-header ul #fb{
         width: 11px;
     }
-
     .socials-header ul #be{
         width: 25px;
     }
-
     .socials-header ul #in{
         width: 19px;
     }
-
     .mainbg{
         display: grid;
         grid-template-columns: 66% auto;
@@ -192,22 +241,24 @@ section{
         text-align: left;
     }
     .mainbg .content h1{
-            font-size: 3em;
-            line-height: 1.2em;
+            font-size: 2em;
+            line-height: -10em;
+            margin: 0 auto;
+            display: grid;
+            margin-top: 1em;    
+            float: left;
     }
     .mainbg .content h3{
-            font-size: 3em;
+            font-size: 1.5em;
             line-height: 1.2em;
+            font-weight: lighter;
+            text-align: left;
+            margin-top: 9em;
         }
-    }
-    
     .meet{
-
         margin: unset;
     }
-
     .designbox{
-
         display: unset;
         margin-left: -40%;
         margin-top: -2%;

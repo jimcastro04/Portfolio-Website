@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249" height="219" viewBox="0 0 249 219">
+  <defs>
+    <filter id="Rectangle_66" x="0" y="0" width="249" height="219" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="xdcard" transform="translate(-618 -6090)">
+    <g transform="matrix(1, 0, 0, 1, 618, 6090)" filter="url(#Rectangle_66)">
+      <rect id="Rectangle_66-2" data-name="Rectangle 66" width="225" height="195" rx="35" transform="translate(13 7)" fill="#fff" opacity="0.84"/>
+    </g>
+    <g id="_x33__x2C__XD_x2C__Adobe" transform="translate(698 6150)">
+      <g id="Group_23" data-name="Group 23">
+        <path id="Path_40" data-name="Path 40" d="M323.036,237.349c0,10.107,6.41,11.022,8.488,11.022a8.457,8.457,0,0,0,2.99-.387V226.925a3.931,3.931,0,0,0-2.357-.493C330.4,226.432,323.036,227.242,323.036,237.349Z" transform="translate(-265.961 -186.425)"/>
+        <path id="Path_41" data-name="Path 41" d="M0,0V90.462H90.462V0ZM39.181,67.847,30.635,50.16,22.187,67.847h-7.87L25.991,44.784,14.72,22.262h7.964l8.41,17.358,8.3-17.358h7.731L35.667,44.514,47.7,67.847Zm36.97-2.286s-3.627,2.661-11.319,2.661c-10.448,0-15.354-7.323-15.354-17,0-12.523,9.19-17.472,16.792-17.472h2.285V22.262h7.6v43.3Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

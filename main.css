@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
@@ -128,6 +131,7 @@ section .title1{
 .skills-container ul li{
     padding: 2em;
     margin-bottom: 1em;
+  
 }
 
 .skills-container .image-container{
@@ -161,9 +165,10 @@ section .title1{
 }
 
 .skill-title{
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 15em;
     text-align: center;
+    font-size: 20px;
     
     
 }
@@ -315,6 +320,11 @@ hr.line1{
     max-width: 100px;
   
     margin-top: -30px;
+}
+
+.portfolio .subtitle{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 

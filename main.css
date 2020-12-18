@@ -156,9 +156,6 @@ section .title{
 
 
 
-
-
-
 .card {
     perspective: 1000px;
     margin: 1rem;
@@ -166,7 +163,8 @@ section .title{
 
 .card-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
+    margin-left: -em;
     transition: all 1s ease;
     transform-style: preserve-3d;
 
@@ -182,12 +180,14 @@ section .title{
 }
 
 .card-container img {
-    width: 15rem;
+    width: 11rem;
+    
 }
 
 .card:hover .card-container {
     transform: rotateY(180deg);
 }
+
 
 
 

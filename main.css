@@ -8,8 +8,10 @@ body{
 ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    display: inline-flex;  
 }
+
+
 a{
     text-decoration: none;
 }
@@ -29,18 +31,18 @@ header{
     padding: 2em;
 }
 
+header ul{
+    margin-left: -20em;
+ }
+
+header ul li{
+    margin-right: 2em;
+}
+ 
+
 header .logo{
     width: 7em;
  }
-
- header .logo ul{
-     display: flex;
- }
- header .logo nav ul a{
-    display: block;
-    padding: 0 1em ;
-}
-
 
 .socials-header, .designbox{
     display: none;
@@ -55,7 +57,7 @@ header .logo{
 }
 .content h1{
     display: flex;
-
+    
     
 }
 .content h1 span{
@@ -63,12 +65,16 @@ header .logo{
     display: flex;
 }
 
-.meet{
+.meet h3{
     display: flex;
-    margin: 0 auto;
     width: 200px;
     font-weight: bold;
     color: #D6FF00;
+    position: relative;
+    margin-left: -.1em;
+    font-size: 20em;
+    
+    
 }
 
 .meet span{
@@ -140,7 +146,6 @@ section .title1{
     
 }
 
-
 section {
     display: flex;
     flex-wrap: wrap;
@@ -149,12 +154,10 @@ section {
 
 section .title{
     margin: 0 auto;
-    margin-top: 10em;
+    margin-top: 5em;
     font-size: 3em;
     font-weight: bold;
 }
-
-
 
 .card {
     perspective: 1000px;
@@ -189,9 +192,118 @@ section .title{
 }
 
 
+.portfolio img{
+    position: absolute;
+    margin-top: 2em;
+    width: 16em;
+}
+
+.portfolio .seagaming{
+    position: absolute;
+    margin-left: 20em;
+    margin-top: -20px;
+    box-shadow: 5px 5px 8px #888888;
+
+}
+
+.portfolio .gotravel{
+    position: absolute;
+    margin-left: 21.5em;
+    margin-top: 140px;
+    box-shadow: 5px 5px 8px #888888;
+
+}
+
+.portfolio .weorder{
+    position: absolute;
+    margin-left: 19em;
+    margin-top: 150px;
+    box-shadow: 5px 5px 8px #888888;
+
+}
+
+.portfolio .inner1{
+    margin-top: -20px; 
+}
+
+.portfolio .inner2{
+    margin-top: 9em; 
+    margin-left: 4em;
+}
+
+.portfolio .inner3{
+    margin-top: 10em; 
+    margin-left: -5.7em;
+}
+
+.button1 {
+    background-color: #0c6da1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+  .button2 {
+    background-color: #E7B409;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .button3 {
+    background-color: #0A632A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+.recentworks{
+    font-size: 50px;
+    margin-top: 300px;
+}
+
 
 
 @media only screen and (min-width: 800px){
+
+.portfolio{
+    text-align: left;
+}
+
+.portfolio-container{
+    display: grid;
+    grid-template-columns: 33% auto;
+}
+
+.left, .portfolio-left{
+    display: grid;
+    place-content: center;
+}
+
+.right{
+    margin-left: 2em;
+    margin-top: 10em;
+}
 
 .skills{
     margin-top: -5em;
@@ -206,7 +318,6 @@ section .title{
     display: flex;
     }
 }
-
 
 @media only screen and (min-width: 1050px){
     .mainbg{
@@ -256,17 +367,21 @@ section .title{
     .socials-header ul #in{
         width: 19px;
     }
+
     .mainbg{
         display: grid;
         grid-template-columns: 66% auto;
         background: unset;
         padding: 0;
     }
+
     .mainbg .content{
         background: #A468FF;
         padding: 6em 8em 6em 4em;
         text-align: left;
     }
+    
+
     .mainbg .content h1{
             font-size: 2em;
             line-height: -10em;
@@ -281,16 +396,30 @@ section .title{
             font-weight: lighter;
             text-align: left;
             margin-top: 9em;
-        }
-    .meet{
-        margin: unset;
     }
+
+
     .designbox{
         display: unset;
         margin-left: -40%;
         margin-top: -2%;
         width: 45em;
-        
+    }
+
+    .portfolio img{
+        float: right;
+        max-width: 500px;
+        position: relative;
+    }
+
+}
+
+@media only screen and (min-width: 1250px){
+    header{
+        padding: 2em 2em 2em 4em;
+    }
+    .socials-header{
+        padding: 2em 4em 2em 0;
     }
 }
     

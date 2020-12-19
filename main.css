@@ -225,7 +225,6 @@ section .title{
 .card-container {
     display: grid;
     grid-template-columns: 1fr ;
-    margin-left: -em;
     transition: all 1s ease;
     transform-style: preserve-3d;
 

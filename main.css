@@ -342,14 +342,17 @@ section .title{
 }
 hr.line1{
     border: 2px solid #FF8DFF; 
-    max-width: 100px;
+    max-width: 20px;
     margin-top: -30px;
 }
 
 .portfolio .subtitle{
     font-weight: bold;
     font-size: 20px;
+    margin-top: -30px;
 }
+
+
 
 
 
